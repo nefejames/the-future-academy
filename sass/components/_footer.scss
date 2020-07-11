@@ -1,0 +1,54 @@
+footer {
+  background: $primary-color;
+  padding: 5rem 0;
+
+  * {
+    color: $color-white;
+  }
+
+  .logo-box {
+    display: inline-block;
+    width: 100px;
+
+    .logo {
+      width: 100%;
+    }
+  }
+
+  h2 {
+    margin: 3rem 0;
+  }
+
+  svg {
+    width: 20px;
+    fill: white;
+  }
+
+  .contact-details {
+    li:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+
+    svg {
+      margin-right: 1rem;
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 30%;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 750px) {
+    .links {
+      width: 17%;
+    }
+  }
+}
